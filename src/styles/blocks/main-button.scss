@@ -1,0 +1,19 @@
+.main-button {
+  background-color: $main;
+  border: none;
+
+  @extend %button;
+  @extend %button-text;
+
+  &:hover {
+    background-color: $hover-color;
+  }
+
+  &:active {
+    background-color: $pressed-color;
+  }
+
+  &__text {
+    color: $white;
+  }
+}

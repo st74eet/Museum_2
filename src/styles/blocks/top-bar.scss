@@ -1,0 +1,49 @@
+.top-bar {
+  height: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @include on-desktop {
+    height: 90px;
+  }
+
+  &__logo-link {
+    text-decoration: none;
+
+    @extend %fill-effect;
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 40px;
+  }
+
+  &__menu-icon {
+    @extend %fill-effect;
+  }
+
+  &__change-language {
+    display: none;
+    align-items: center;
+    gap: 3px;
+    transform: translateY(-2px);
+
+    @extend %fill-effect;
+
+    @include on-tablet {
+      display: flex;
+    }
+
+    &::before {
+      content: 'UA';
+      display: block;
+      font-weight: 500;
+
+      @extend %text-effect;
+      @extend %text-main;
+    }
+  }
+}
