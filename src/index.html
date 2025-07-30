@@ -66,7 +66,7 @@
           <div class="top-bar__right">
             <a
               href="#menu"
-              class="top-bar__menu-icon"
+              class="top-bar__icon top-bar__icon--menu"
             >
               <svg
                 width="30"
@@ -115,7 +115,106 @@
       </div>
     </header>
 
-    <aside class="aside"></aside>
+    <aside
+      class="page__menu menu"
+      id="menu"
+    >
+      <div class="container">
+        <div class="top-bar">
+          <a
+            href="#"
+            class="top-bar__logo-link"
+          >
+            <svg
+              width="117"
+              height="26"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="top-bar__logo-img"
+                d="M18.96.216V20.16L4.668.216H.24v25.2h3.6V4.932L18.6 25.416h3.96V.216h-3.6ZM48.977.216v4.788C46.889 2.088 43.649 0 39.941 0c-7.272 0-12.528 5.4-12.528 12.816s5.256 12.816 12.528 12.816c3.708 0 6.948-2.088 9.036-5.004v4.788h3.492V.216h-3.492ZM40.085 22.32c-5.148 0-8.892-3.996-8.892-9.504 0-5.508 3.744-9.504 8.892-9.504s8.892 3.996 8.892 9.504c0 5.508-3.744 9.504-8.892 9.504ZM88.83.216h-5.147l-9.72 20.952L64.207.216H58.95v25.2h3.6V4.896l9.504 20.52h3.6l9.576-20.7v20.7h3.6V.216ZM105.922 25.776c6.264 0 10.98-4.572 10.98-10.656V.216h-3.6V15.12c0 4.104-3.168 7.2-7.38 7.2s-7.38-3.096-7.38-7.2V.216h-3.6V15.12c0 6.084 4.717 10.656 10.98 10.656Z"
+              />
+            </svg>
+          </a>
+
+          <div class="top-bar__right">
+            <a
+              href="#"
+              class="top-bar__icon top-bar__icon--close"
+            >
+              <svg
+                width="30"
+                height="30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M4.418 24.572 24.99 4l1.428 1.429L5.847 26z" />
+                <path d="M5.428 4 26 24.572 24.572 26 4 5.428z" />
+              </svg>
+            </a>
+            <div class="top-bar__change-language">
+              <svg
+                class="top-bar__change-language-img"
+                width="10"
+                height="10"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M1.797 3.081a.278.278 0 0 0-.394 0l-.322.322a.278.278 0 0 0 0 .394L4.446 7.16a.28.28 0 0 0 .037.046l.322.322a.278.278 0 0 0 .393 0l3.72-3.72a.278.278 0 0 0 0-.394l-.321-.322a.278.278 0 0 0-.394 0L5.006 6.291l-3.21-3.21Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu__content">
+          <div class="menu__contact-schedule contact-info">
+            <p class="contact-info__title">Розклад сьогодні:</p>
+
+            <p class="contact-info__info">12:00 - 19:00</p>
+          </div>
+          <div class="menu__contact-adress contact-info">
+            <p class="contact-info__title">Адреса:</p>
+
+            <p class="contact-info__info">Київ, вул. М. Грушевського, 6</p>
+          </div>
+
+          <div class="menu__links">
+            <a
+              href="#"
+              class="menu__link"
+            >
+              <p class="menu__topic">Актуальні виставки</p>
+            </a>
+
+            <a
+              href="#"
+              class="menu__link"
+            >
+              <p class="menu__topic">Найближчі події</p>
+            </a>
+
+            <a
+              href="#"
+              class="menu__link"
+            >
+              <p class="menu__topic">Новини</p>
+            </a>
+          </div>
+
+          <a
+            href="#"
+            class="menu__button"
+          >
+            <button class="main-button">
+              <p class="main-button__text">Купити квиток</p>
+            </button>
+          </a>
+
+          <div class="person person--boy"></div>
+        </div>
+      </div>
+    </aside>
 
     <main class="main"></main>
 

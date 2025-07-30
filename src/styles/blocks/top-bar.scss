@@ -17,11 +17,11 @@
   &__right {
     display: flex;
     align-items: center;
-    flex-direction: row-reverse;
+    flex-direction: row;
     gap: 40px;
   }
 
-  &__menu-icon {
+  &__icon {
     @extend %fill-effect;
   }
 
@@ -29,7 +29,6 @@
     display: none;
     align-items: center;
     gap: 3px;
-    transform: translateY(-2px);
 
     @extend %fill-effect;
 
@@ -41,6 +40,7 @@
       content: 'UA';
       display: block;
       font-weight: 500;
+      color: $white;
 
       @extend %text-effect;
       @extend %text-main;

@@ -1,0 +1,27 @@
+.contact-info {
+  color: $white;
+
+  &:first-child {
+    margin-bottom: 20px;
+
+    @include on-tablet {
+      margin-bottom: 0;
+    }
+  }
+
+  &__title {
+    margin: 0;
+
+    @extend %text-additional;
+  }
+
+  &__info {
+    font-family: $text-font;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+
+    margin: 0;
+  }
+}
