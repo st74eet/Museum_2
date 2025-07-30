@@ -104,19 +104,11 @@
 }
 
 %text-main {
-  font-family: $text-font;
+  font-family: Raleway, sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0;
-
-  @include on-tablet {
-    font-size: 18px;
-  }
-
-  @include on-desktop {
-    font-size: 20px;
-  }
 }
 
 %text-additional {
@@ -125,14 +117,6 @@
   font-size: 14px;
   line-height: 140%;
   letter-spacing: 0;
-
-  @include on-tablet {
-    font-size: 16px;
-  }
-
-  @include on-desktop {
-    font-size: 16px;
-  }
 }
 
 %button {

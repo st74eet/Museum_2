@@ -1,0 +1,53 @@
+.exhibit {
+  &__img {
+    object-fit: cover;
+    object-position: 30%;
+    width: 100%;
+    height: 356px;
+
+    @include on-tablet {
+      height: 420px;
+    }
+
+    @include on-desktop {
+      height: 484px;
+    }
+  }
+
+  &__date {
+    color: $main;
+    margin: 20px 0 10px;
+
+    @extend %text-main;
+
+    @include on-tablet {
+      margin-top: 30px;
+    }
+
+    @include on-desktop {
+      margin-top: 20px;
+    }
+  }
+
+  &__title {
+    margin: 0;
+  }
+
+  &__subtitle {
+    margin: 20px 0 30px;
+
+    @extend %text-main;
+
+    @include on-tablet {
+      margin-bottom: 40px;
+    }
+
+    @include on-desktop {
+      margin-bottom: 50px;
+    }
+  }
+
+  &__button {
+    margin: 0;
+  }
+}
