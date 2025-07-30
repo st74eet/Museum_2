@@ -140,3 +140,24 @@
     font-size: 18px;
   }
 }
+
+%secondary-button-settings {
+  margin-top: 30px;
+  grid-column: 1 / -1;
+
+  @include on-tablet {
+    margin-top: 0;
+    grid-column: -3 / -1;
+    grid-row: 1 / 2;
+  }
+}
+
+%title-settings {
+  grid-column: 1 / -1;
+  white-space: nowrap;
+  margin: 0;
+
+  @include on-tablet {
+    grid-column: 1 / -3;
+  }
+}

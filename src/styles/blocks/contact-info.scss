@@ -24,4 +24,9 @@
 
     margin: 0;
   }
+
+  &__link {
+    text-decoration: none;
+    color: $white;
+  }
 }

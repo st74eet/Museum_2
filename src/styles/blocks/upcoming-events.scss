@@ -1,0 +1,28 @@
+.upcoming-events {
+  padding-top: 120px;
+  row-gap: 60px;
+
+  @include page-grid;
+
+  @include on-tablet {
+    padding-top: 160px;
+    row-gap: 70px;
+  }
+
+  @include on-desktop {
+    padding-top: 200px;
+    row-gap: 60px;
+  }
+
+  &__title {
+    @extend %title-settings;
+  }
+
+  &__event {
+    grid-column: 1 / -1;
+  }
+
+  &__button {
+    @extend %secondary-button-settings;
+  }
+}
