@@ -26,7 +26,10 @@
 
   &--plan-a-visit-to-the-museum {
     background-image: url(../images/people/person--menu-pic.png);
-    left: 0;
-    right: 65%;
+    left: -5%;
+    width: 48vw;
+    min-width: 245px;
+    max-width: 625px;
+    overflow: visible;
   }
 }

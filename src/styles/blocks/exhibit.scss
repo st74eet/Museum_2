@@ -31,6 +31,12 @@
     @include on-desktop {
       margin-top: 20px;
     }
+
+    &--gray {
+      color: $black;
+
+      @extend %text-additional;
+    }
   }
 
   &__title {
@@ -48,6 +54,10 @@
 
     @include on-desktop {
       margin-bottom: 50px;
+    }
+
+    &--news {
+      margin-bottom: 0;
     }
   }
 

@@ -1,8 +1,8 @@
-.current-exhibitions {
+.news {
   padding-top: 90px;
 
   @include on-tablet {
-    padding-top: 100px;
+    padding-top: 120px;
   }
 
   @include on-desktop {
@@ -14,7 +14,12 @@
   }
 
   &__title {
-    @extend %title-settings;
+    margin: 0;
+    grid-column: 1 / -1;
+
+    @include on-tablet {
+      grid-column: 1 / -4;
+    }
   }
 
   &__exhibit {
