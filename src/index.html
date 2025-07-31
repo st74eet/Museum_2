@@ -110,7 +110,7 @@
             </button>
           </a>
 
-          <div class="person person--girl"></div>
+          <div class="header__person person person--girl"></div>
         </div>
       </div>
     </header>
@@ -218,151 +218,181 @@
             </button>
           </a>
 
-          <div class="person person--boy"></div>
+          <div class="menu__person person person--boy"></div>
         </div>
       </div>
     </aside>
 
     <main class="main">
-      <div class="container">
-        <section
-          class="current-exhibitions"
-          id="Актуальні виставки"
-        >
-          <h3 class="current-exhibitions__title">Актуальні виставки</h3>
-          <article
-            class="current-exhibitions__exhibit current-exhibitions__exhibit--1 exhibit"
-          >
-            <img
-              src="./images/exhibits/exhibit--1.png"
-              alt="an angel"
-              class="exhibit__img exhibit__img--angel"
-            />
-            <p class="exhibit__date">11.07 - 22.09</p>
-            <h4 class="exhibit__title">Кураторська виставка “Ангели”</h4>
-            <p class="exhibit__subtitle">
-              Виставковий проект «Ангели» – знакова подія для української
-              культури і водночас наймасштабніший...
+      <section
+        class="current-exhibitions"
+        id="Актуальні виставки"
+      >
+        <div class="container">
+          <div class="current-exhibitions__conent">
+            <h3 class="current-exhibitions__title">Актуальні виставки</h3>
+            <article
+              class="current-exhibitions__exhibit current-exhibitions__exhibit--1 exhibit"
+            >
+              <img
+                src="./images/exhibits/exhibit--1.png"
+                alt="an angel"
+                class="exhibit__img exhibit__img--angel"
+              />
+              <p class="exhibit__date">11.07 - 22.09</p>
+              <h4 class="exhibit__title">Кураторська виставка “Ангели”</h4>
+              <p class="exhibit__subtitle">
+                Виставковий проект «Ангели» – знакова подія для української
+                культури і водночас наймасштабніший...
+              </p>
+              <a
+                href="#Сплануйте візит до музею"
+                class="exhibit__button"
+              >
+                <button class="main-button">
+                  <p class="main-button__text">Купити квиток</p>
+                </button>
+              </a>
+            </article>
+            <article
+              class="current-exhibitions__exhibit current-exhibitions__exhibit--2 exhibit"
+            >
+              <img
+                src="./images/exhibits/exhibit--2.png"
+                alt="a man"
+                class="exhibit__img"
+              />
+              <p class="exhibit__date">Діє постійно</p>
+              <h4 class="exhibit__title">Мистецтво ХХ ст. — XXI ст.</h4>
+              <p class="exhibit__subtitle">
+                Знакові роботи Алли Горської, Миколи Самокиша, Федора
+                Кричевського та інших митців.
+              </p>
+              <a
+                href="#Сплануйте візит до музею"
+                class="exhibit__button"
+              >
+                <button class="main-button">
+                  <p class="main-button__text">Купити квиток</p>
+                </button>
+              </a>
+            </article>
+            <a
+              href="#"
+              class="current-exhibitions__button"
+            >
+              <button class="secondary-button">
+                <p class="secondary-button__text">Архів виставок</p>
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="upcoming-events"
+        id="Найближчі події"
+      >
+        <div class="container">
+          <div class="upcoming-events__content">
+            <h3 class="upcoming-events__title">Найближчі події</h3>
+            <article
+              class="upcoming-events__event upcoming-events__event--1 exhibit event"
+            >
+              <img
+                src="./images/events/tours-by-Pavel-Gudimov.jpg"
+                alt="an angel"
+                class="exhibit__img event__img"
+              />
+              <div class="exhibit__content event__content">
+                <p class="exhibit__date event__date">14.08 о 13:00</p>
+                <h4 class="exhibit__title event__title">
+                  Кураторські екскурсії від Павла Гудімова
+                </h4>
+                <p class="exhibit__subtitle event__subtitle">
+                  Таємниці підготовки, історії експонатів, магія дійства до і в
+                  момент вашої присутності – розгортатиметься...
+                </p>
+              </div>
+              <a
+                href="#Сплануйте візит до музею"
+                class="exhibit__button event__button"
+              >
+                <button class="main-button">
+                  <p class="main-button__text">Зареєструватись</p>
+                </button>
+              </a>
+            </article>
+            <article
+              class="upcoming-events__event upcoming-events__event--2 exhibit event"
+            >
+              <img
+                src="./images/events/travel-to-Australia-event.jpg"
+                alt="an angel"
+                class="exhibit__img event__img"
+              />
+              <div class="exhibit__content event__content">
+                <p class="exhibit__date event__date">16.08 о 13:00</p>
+                <h4 class="exhibit__title event__title">
+                  Майстер-клас “Подорож до Австралії”
+                </h4>
+                <p class="exhibit__subtitle event__subtitle">
+                  Цієї неділі о 14:00 на арт-мандрівників чекає останній пункт
+                  кругосвітньої подорожі - Австралія.
+                </p>
+              </div>
+              <a
+                href="#Сплануйте візит до музею"
+                class="exhibit__button event__button"
+              >
+                <button class="main-button">
+                  <p class="main-button__text">Зареєструватись</p>
+                </button>
+              </a>
+            </article>
+            <a
+              href="#"
+              class="current-exhibitions__button"
+            >
+              <button class="secondary-button">
+                <p class="secondary-button__text">Календар подій</p>
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="plan-a-visit-to-the-museum"
+        id="Сплануйте візит до музею"
+      >
+        <div class="container">
+          <div class="plan-a-visit-to-the-museum__content">
+            <h2 class="plan-a-visit-to-the-museum__title">
+              Сплануйте візит до музею
+            </h2>
+            <p class="plan-a-visit-to-the-museum__subtitle">
+              Оберіть зручний день, зареєструйтесь на події, що цікавлять,
+              купіть квиток заздалегідь, щоб ніщо не завадило вам
+              насолоджуватись мистецтвом.
             </p>
             <a
               href="#"
-              class="exhibit__button"
+              class="plan-a-visit-to-the-museum__button"
             >
               <button class="main-button">
-                <p class="main-button__text">Купити квиток</p>
+                <p class="main-button__text">Почати</p>
               </button>
             </a>
-          </article>
-          <article
-            class="current-exhibitions__exhibit current-exhibitions__exhibit--2 exhibit"
-          >
-            <img
-              src="./images/exhibits/exhibit--2.png"
-              alt="a man"
-              class="exhibit__img"
-            />
-            <p class="exhibit__date">Діє постійно</p>
-            <h4 class="exhibit__title">Мистецтво ХХ ст. — XXI ст.</h4>
-            <p class="exhibit__subtitle">
-              Знакові роботи Алли Горської, Миколи Самокиша, Федора Кричевського
-              та інших митців.
-            </p>
-            <a
-              href="#"
-              class="exhibit__button"
-            >
-              <button class="main-button">
-                <p class="main-button__text">Купити квиток</p>
-              </button>
-            </a>
-          </article>
-          <a
-            href="#"
-            class="current-exhibitions__button"
-          >
-            <button class="secondary-button">
-              <p class="secondary-button__text">Архів виставок</p>
-            </button>
-          </a>
-        </section>
-
-        <section
-          class="upcoming-events"
-          id="Найближчі події"
-        >
-          <h3 class="upcoming-events__title">Найближчі події</h3>
-          <article
-            class="upcoming-events__event upcoming-events__event--1 exhibit event"
-          >
-            <img
-              src="./images/events/tours-by-Pavel-Gudimov.jpg"
-              alt="an angel"
-              class="exhibit__img event__img"
-            />
-            <div class="exhibit__content event__content">
-              <p class="exhibit__date event__date">14.08 о 13:00</p>
-              <h4 class="exhibit__title event__title">
-                Кураторські екскурсії від Павла Гудімова
-              </h4>
-              <p class="exhibit__subtitle event__subtitle">
-                Таємниці підготовки, історії експонатів, магія дійства до і в
-                момент вашої присутності – розгортатиметься...
-              </p>
-            </div>
-            <a
-              href="#"
-              class="exhibit__button event__button"
-            >
-              <button class="main-button">
-                <p class="main-button__text">Зареєструватись</p>
-              </button>
-            </a>
-          </article>
-
-          <article
-            class="upcoming-events__event upcoming-events__event--2 exhibit event"
-          >
-            <img
-              src="./images/events/travel-to-Australia-event.jpg"
-              alt="an angel"
-              class="exhibit__img event__img"
-            />
-            <div class="exhibit__content event__content">
-              <p class="exhibit__date event__date">16.08 о 13:00</p>
-              <h4 class="exhibit__title event__title">
-                Майстер-клас “Подорож до Австралії”
-              </h4>
-              <p class="exhibit__subtitle event__subtitle">
-                Цієї неділі о 14:00 на арт-мандрівників чекає останній пункт
-                кругосвітньої подорожі - Австралія.
-              </p>
-            </div>
-            <a
-              href="#"
-              class="exhibit__button event__button"
-            >
-              <button class="main-button">
-                <p class="main-button__text">Зареєструватись</p>
-              </button>
-            </a>
-          </article>
-
-          <a
-            href="#"
-            class="current-exhibitions__button"
-          >
-            <button class="secondary-button">
-              <p class="secondary-button__text">Календар подій</p>
-            </button>
-          </a>
-        </section>
-      </div>
+            <div
+              class="plan-a-visit-to-the-museum__person person person--plan-a-visit-to-the-museum"
+            ></div>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <!-- #region COMMING SOON -->
     <footer class="footer"></footer>
     <script src="scripts/main.js"></script>
   </body>
 </html>
-<!-- #endregion -->
-<!-- #endregion -->

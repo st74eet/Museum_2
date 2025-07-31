@@ -1,17 +1,22 @@
 .upcoming-events {
-  padding-top: 120px;
-  row-gap: 60px;
-
-  @include page-grid;
-
-  @include on-tablet {
-    padding-top: 160px;
-    row-gap: 70px;
-  }
-
-  @include on-desktop {
-    padding-top: 200px;
+  &__content {
+    padding-top: 120px;
+    padding-bottom: 90px;
     row-gap: 60px;
+
+    @include page-grid;
+
+    @include on-tablet {
+      padding-top: 160px;
+      padding-bottom: 100px;
+      row-gap: 70px;
+    }
+
+    @include on-desktop {
+      padding-top: 200px;
+      padding-bottom: 110px;
+      row-gap: 60px;
+    }
   }
 
   &__title {

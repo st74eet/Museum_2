@@ -1,14 +1,16 @@
 .current-exhibitions {
   padding-top: 90px;
 
-  @include page-grid;
-
   @include on-tablet {
     padding-top: 100px;
   }
 
   @include on-desktop {
     padding-top: 110px;
+  }
+
+  &__conent {
+    @include page-grid;
   }
 
   &__title {

@@ -6,12 +6,15 @@
 @import 'blocks/page';
 @import 'blocks/top-bar';
 @import 'blocks/header';
+@import 'blocks/menu';
+@import 'blocks/current-exhibitions';
+@import 'blocks/upcoming-events';
+@import 'blocks/plan-a-visit-to-the-museum';
 @import 'blocks/person';
+@import 'blocks/contact-info';
+@import 'blocks/exhibit';
+@import 'blocks/event';
+
+// BUTTONS
 @import 'blocks/main-button';
 @import 'blocks/secondary-button';
-@import 'blocks/menu';
-@import 'blocks/contact-info';
-@import 'blocks/current-exhibitions';
-@import 'blocks/exhibit';
-@import 'blocks/upcoming-events';
-@import 'blocks/event';

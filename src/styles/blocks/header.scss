@@ -62,4 +62,19 @@
       grid-column: 1 / 4;
     }
   }
+
+  &__person {
+    width: 245px;
+    height: 273px;
+
+    @include on-tablet {
+      height: 494px;
+      width: 443px;
+    }
+
+    @include on-desktop {
+      height: 663px;
+      width: 625px;
+    }
+  }
 }
